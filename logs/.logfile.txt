@@ -230,3 +230,13 @@
 [27/8/2022 -- 12:49]  Sass ran on files
 [27/8/2022 -- 12:49]  Sass ran on files
 [27/8/2022 -- 12:49]  Sass ran on files
+[27/8/2022 -- 12:52]  Info task started
+[27/8/2022 -- 12:52]  Mustache Templates ran on the HTML files
+[27/8/2022 -- 12:52]  Scripts ran on main.js
+[27/8/2022 -- 12:52]  Sass ran on files
+[27/8/2022 -- 12:53]  Scripts ran on main.js
+[27/8/2022 -- 12:53]  Scripts ran on main.js
+[27/8/2022 -- 12:54]  Scripts ran on main.js
+[27/8/2022 -- 12:54]  Scripts ran on main.js
+[27/8/2022 -- 12:55]  Scripts ran on main.js
+[27/8/2022 -- 12:55]  Scripts ran on main.js

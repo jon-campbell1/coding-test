@@ -31,7 +31,9 @@ class Menu extends React.Component {
     showSearchContainer(e) {
         e.preventDefault();
         this.setState({
-            showingSearch: !this.state.showingSearch
+            showingSearch: !this.state.showingSearch,
+            results: [],
+            searchText: '',
         });
     }
 
@@ -112,7 +114,7 @@ class Menu extends React.Component {
                     </div>
                 </div>
                 <div className={(showingSearch ? "showing " : "") + "search-container"}>
-                    <input type="text" onChange={(e) => this.onSearch(e)} />
+                    <input type="text" onChange={(e) => this.onSearch(e)} value={searchText} placeholder="Search..."/>
                     <a href="#" onClick={(e) => this.showSearchContainer(e)}>
                         <i className="material-icons close">close</i>
                     </a>
