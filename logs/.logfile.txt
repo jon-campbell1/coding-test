@@ -225,3 +225,8 @@
 [27/8/2022 -- 12:31]  Scripts ran on main.js
 [27/8/2022 -- 12:32]  Scripts ran on main.js
 [27/8/2022 -- 12:32]  Scripts ran on main.js
+[27/8/2022 -- 12:49]  Sass ran on files
+[27/8/2022 -- 12:49]  Sass ran on files
+[27/8/2022 -- 12:49]  Sass ran on files
+[27/8/2022 -- 12:49]  Sass ran on files
+[27/8/2022 -- 12:49]  Sass ran on files

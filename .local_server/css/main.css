@@ -24,24 +24,24 @@ header.menu div.search-container input[type='text'] { min-width: 100%; font-size
 
 header.menu div.search-container i.close { position: absolute; right: 10px; top: 5px; font-size: 36px; line-height: 50px; }
 
-header.menu div.search-container .results-title { font-size: 24px; font-weight: bold; padding: 10px; }
-
-header.menu div.search-container .results-list { font-size: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -ms-flex-wrap: wrap; flex-wrap: wrap; }
-
-header.menu div.search-container .results-list .result-item { position: relative; cursor: pointer; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 10px; width: 220px; border: 1px solid #cdcdcd; margin: 0 10px 10px 0; }
-
-header.menu div.search-container .results-list .result-item .price { position: absolute; right: 0px; top: 0px; padding: 5px; border: 1px dashed #cdcdcd; font-weight: bold; font-size: 14px; background: white; }
-
-header.menu div.search-container .results-list .result-item img { height: 200px; }
-
-header.menu div.search-container .results-list .result-item:hover { background-color: #ececec; }
-
-header.menu div.search-container .results-list .result-item p { font-size: 14px; }
-
 /** This is the central home page */
 section#home { position: absolute; width: 100%; height: 100%; top: 0; left: 0; padding: 100px 20px 0; background-image: url("/img/header.jpg"); background-size: cover; background-repeat: no-repeat; }
 
 section#home div.content { max-width: 1280px; margin: 0 auto; color: #FFF; }
+
+.results-title { font-size: 24px; font-weight: bold; padding: 10px; }
+
+.results-list { font-size: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.results-list .result-item { position: relative; cursor: pointer; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 10px; width: 220px; border: 1px solid #cdcdcd; margin: 0 10px 10px 0; }
+
+.results-list .result-item .price { position: absolute; right: 0px; top: 0px; padding: 5px; border: 1px dashed #cdcdcd; font-weight: bold; font-size: 14px; background: white; }
+
+.results-list .result-item img { height: 200px; }
+
+.results-list .result-item:hover { background-color: #ececec; }
+
+.results-list .result-item p { font-size: 14px; }
 
 html, html * { -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
 
